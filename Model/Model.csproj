@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE25659E-55B4-4AA1-8CF8-AD288348A4C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Model\AppMessageState.cs" />
+    <Compile Include="Admin\Model\AppSettings.cs" />
+    <Compile Include="Admin\Model\AppSms.cs" />
+    <Compile Include="Admin\Model\AppUserOptions.cs" />
+    <Compile Include="Admin\Model\KeyInfo.cs" />
+    <Compile Include="Admin\Model\Rahzam.cs" />
+    <Compile Include="Admin\Model\ShopMessage.cs" />
+    <Compile Include="Admin\Model\SmsAlertSettings.cs" />
+    <Compile Include="Admin\Model\SmsConfigObj.cs" />
+    <Compile Include="Admin\Model\SmsSubscriber.cs" />
+    <Compile Include="Admin\Model\UserOps.cs" />
+    <Compile Include="Admin\ViewModel\AlarmVm.cs" />
+    <Compile Include="Admin\ViewModel\AppUserVM.cs" />
+    <Compile Include="AppBroker\ViewModel\BrokerVM.cs" />
+    <Compile Include="AppCompany\ViewModel\CompanyVM.cs" />
+    <Compile Include="AppDriver\ViewModel\DriverVM.cs" />
+    <Compile Include="AppDriver\ViewModel\VehicleDispatchVM.cs" />
+    <Compile Include="AppDriver\ViewModel\VehicleLoadedVM.cs" />
+    <Compile Include="AppDriver\ViewModel\VehicleVM.cs" />
+    <Compile Include="AppGoodCompany\ViewModel\GoodCompanyStockVM.cs" />
+    <Compile Include="AppGoodCompany\ViewModel\GoodCompanyVM.cs" />
+    <Compile Include="AppGoodCompany\ViewModel\PackingIssueReceiveRecordVM.cs" />
+    <Compile Include="AppGoodCompany\ViewModel\PackingStockFacotoryVM.cs" />
+    <Compile Include="AppGoodCompany\ViewModel\PackingStockVM.cs" />
+    <Compile Include="AppSelector\ViewModel\SelectorVM.cs" />
+    <Compile Include="CommonModel\RawBrokerShareType.cs" />
+    <Compile Include="Deal\Common\AppEnums.cs" />
+    <Compile Include="Deal\Model\AlertMessage.cs" />
+    <Compile Include="Deal\Model\AppDeal.cs" />
+    <Compile Include="Deal\Model\AppUser.cs" />
+    <Compile Include="Deal\Model\Broker.cs" />
+    <Compile Include="Deal\Model\Company.cs" />
+    <Compile Include="Deal\Model\DealPackingSupplier.cs" />
+    <Compile Include="Deal\Model\DealSchedule.cs" />
+    <Compile Include="Deal\Model\Driver.cs" />
+    <Compile Include="Deal\Model\FactoryPackingStock.cs" />
+    <Compile Include="Deal\Model\FactoryPackingStockAddedRecord.cs" />
+    <Compile Include="Deal\Model\FactoryPackingStockIssueRecord.cs" />
+    <Compile Include="Deal\Model\GoodCompany.cs" />
+    <Compile Include="Deal\Model\OmeDeal.cs" />
+    <Compile Include="Deal\Model\DealItem.cs" />
+    <Compile Include="Deal\Model\DealPacking.cs" />
+    <Compile Include="Deal\Model\DealSegment.cs" />
+    <Compile Include="Deal\Model\OmeSettings.cs" />
+    <Compile Include="Deal\Model\PackingIssueReceiveRecord.cs" />
+    <Compile Include="Deal\Model\PackingStock.cs" />
+    <Compile Include="Deal\Model\PackingUnit.cs" />
+    <Compile Include="Deal\Model\ReturnRecord.cs" />
+    <Compile Include="Deal\Model\ScheduleAlarm.cs" />
+    <Compile Include="Deal\Model\ScheduleLoadPacking.cs" />
+    <Compile Include="Deal\Model\ScheduleWeighBridge.cs" />
+    <Compile Include="Deal\Model\Selector.cs" />
+    <Compile Include="Deal\Model\SmsMessage.cs" />
+    <Compile Include="Deal\Model\SmsSubscriber.cs" />
+    <Compile Include="Deal\Model\TradeUnit.cs" />
+    <Compile Include="Deal\Model\Vehicle.cs" />
+    <Compile Include="Deal\Model\WeighBridge.cs" />
+    <Compile Include="Deal\ViewModel\AddPackingVM.cs" />
+    <Compile Include="Deal\ViewModel\DealVM.cs" />
+    <Compile Include="Deal\ViewModel\PackingReceiveEditAble.cs" />
+    <Compile Include="Deal\ViewModel\PackingReceiveNonEdit.cs" />
+    <Compile Include="Deal\ViewModel\ScheduleVM.cs" />
+    <Compile Include="Deal\ViewModel\ScheduleVM2.cs" />
+    <Compile Include="Deal\ViewModel\VehicleVM.cs" />
+    <Compile Include="EFiling\Model\EFCategory.cs" />
+    <Compile Include="EFiling\Model\EFile.cs" />
+    <Compile Include="EFiling\Model\EFileImage.cs" />
+    <Compile Include="EFiling\ViewModel\EFileVM.cs" />
+    <Compile Include="Employees\Model\AttendanceRecord.cs" />
+    <Compile Include="Employees\Model\CreditEntry.cs" />
+    <Compile Include="Employees\Model\Employee.cs" />
+    <Compile Include="Employees\Model\EmployeeSalaryEntryAllowance.cs" />
+    <Compile Include="Employees\Model\EmployeeSalaryEntryDeduction.cs" />
+    <Compile Include="Employees\Model\EmployPayRollEntry.cs" />
+    <Compile Include="Employees\Model\SalaryAllowance.cs" />
+    <Compile Include="Employees\Model\SalaryDeduction.cs" />
+    <Compile Include="Employees\ViewModel\AdvanceVM.cs" />
+    <Compile Include="Employees\ViewModel\AllowanceVM.cs" />
+    <Compile Include="Employees\ViewModel\DeductionVM.cs" />
+    <Compile Include="Employees\ViewModel\EmployeeAdvanceVM.cs" />
+    <Compile Include="Employees\ViewModel\EmployeeVM.cs" />
+    <Compile Include="Employees\ViewModel\PayRollEntryVM.cs" />
+    <Compile Include="Entertainment\Model\EntItem.cs" />
+    <Compile Include="Entertainment\Model\EntItemEntry.cs" />
+    <Compile Include="Entertainment\Model\EntPurchase.cs" />
+    <Compile Include="Entertainment\Model\EntZeroItemConsumption.cs" />
+    <Compile Include="Entertainment\ViewModel\eItemVM2.cs" />
+    <Compile Include="Entertainment\ViewModel\EntItemVM.cs" />
+    <Compile Include="Entertainment\ViewModel\ePurchaseItemVM.cs" />
+    <Compile Include="Entertainment\ViewModel\EPurchaseVM.cs" />
+    <Compile Include="Entertainment\ViewModel\ePurEntry.cs" />
+    <Compile Include="Financials\Model\AccountBase.cs" />
+    <Compile Include="Financials\Model\AccountTransaction.cs" />
+    <Compile Include="Financials\Model\AccruedExpenseItem.cs" />
+    <Compile Include="Financials\Model\DayBook.cs" />
+    <Compile Include="Financials\Model\FinancialExpenseItem.cs" />
+    <Compile Include="Financials\Model\GeneralAccount.cs" />
+    <Compile Include="Financials\Model\HeadAccount.cs" />
+    <Compile Include="Financials\Model\LongTermAssetItem.cs" />
+    <Compile Include="Financials\Model\MiscTransaction.cs" />
+    <Compile Include="Financials\Model\SubHeadAccount.cs" />
+    <Compile Include="Financials\Model\TopHeadAccount.cs" />
+    <Compile Include="Financials\ViewModel\AccountSearchVM.cs" />
+    <Compile Include="Financials\ViewModel\AccountVM.cs" />
+    <Compile Include="Financials\ViewModel\AccruedExpenseItemVM.cs" />
+    <Compile Include="Financials\ViewModel\BankVM.cs" />
+    <Compile Include="Financials\ViewModel\CaptitalAccountVM.cs" />
+    <Compile Include="Financials\ViewModel\DayBookVM.cs" />
+    <Compile Include="Financials\ViewModel\DrCrVM.cs" />
+    <Compile Include="Financials\ViewModel\EmpAccountBalance.cs" />
+    <Compile Include="Financials\ViewModel\ExpenseEntryVM.cs" />
+    <Compile Include="Financials\ViewModel\GeneralAccountVM.cs" />
+    <Compile Include="Financials\ViewModel\HeadAccountVM.cs" />
+    <Compile Include="Financials\ViewModel\LinkAcctVM.cs" />
+    <Compile Include="Financials\ViewModel\LongTermAssetItemVM.cs" />
+    <Compile Include="Financials\ViewModel\TransactionsVM.cs" />
+    <Compile Include="General\Model\GeneralReceipt.cs" />
+    <Compile Include="General\ViewModel\GrVm.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtAlarm.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtBroker.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtDeal.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtDriver.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtItem.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtSchedule.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtSelector.cs" />
+    <Compile Include="OilDirtStuff\Model\OilDirtTradeUnit.cs" />
+    <Compile Include="OilDirtStuff\ViewModel\OilDirtScheduleVM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadyStuff\Model\Bharthi.cs" />
+    <Compile Include="ReadyStuff\Model\BharthiType.cs" />
+    <Compile Include="ReadyStuff\Model\OilDeal.cs" />
+    <Compile Include="ReadyStuff\Model\OilDealAlarm.cs" />
+    <Compile Include="ReadyStuff\Model\OilDealBroker.cs" />
+    <Compile Include="ReadyStuff\Model\OilDealDriver.cs" />
+    <Compile Include="ReadyStuff\Model\OilDealItem.cs" />
+    <Compile Include="ReadyStuff\Model\OilDealSelector.cs" />
+    <Compile Include="ReadyStuff\Model\OilTradeUnit.cs" />
+    <Compile Include="ReadyStuff\Model\ReadyBroker.cs" />
+    <Compile Include="ReadyStuff\Model\ReadyDeal.cs" />
+    <Compile Include="ReadyStuff\Model\ReadyDriver.cs" />
+    <Compile Include="ReadyStuff\Model\ReadyItem.cs" />
+    <Compile Include="ReadyStuff\Model\ReadySchedule.cs" />
+    <Compile Include="ReadyStuff\Model\ReadyScheduleAlarm.cs" />
+    <Compile Include="ReadyStuff\Model\ReadySelector.cs" />
+    <Compile Include="ReadyStuff\Model\ReadyTradeUnit.cs" />
+    <Compile Include="ReadyStuff\ViewModel\BharthiVM.cs" />
+    <Compile Include="ReadyStuff\ViewModel\OilDealVM1.cs" />
+    <Compile Include="ReadyStuff\ViewModel\ReadyDealVM.cs" />
+    <Compile Include="ReadyStuff\ViewModel\ReadyScheduleAlarmVM.cs" />
+    <Compile Include="ReadyStuff\ViewModel\SchCompTransfer.cs" />
+    <Compile Include="ReadyStuff\ViewModel\SchProcessTransfer.cs" />
+    <Compile Include="ReadyStuff\ViewModel\SchVM.cs" />
+    <Compile Include="ReadyStuff\ViewModel\SchVM2.cs" />
+    <Compile Include="Repair\Model\AdvanceItemRecord.cs" />
+    <Compile Include="Repair\Model\ItemCategory.cs" />
+    <Compile Include="Repair\Model\ItemPlaceSKU.cs" />
+    <Compile Include="Repair\Model\ItemPurchaseEntry.cs" />
+    <Compile Include="Repair\Model\ItemSupplier.cs" />
+    <Compile Include="Repair\Model\Location.cs" />
+    <Compile Include="Repair\Model\PurchaseInvoiceRecord.cs" />
+    <Compile Include="Repair\Model\RepairDispatchRecord.cs" />
+    <Compile Include="Repair\Model\RepairReceiveRecord.cs" />
+    <Compile Include="Repair\Model\RepEntry.cs" />
+    <Compile Include="Repair\Model\RepItem.cs" />
+    <Compile Include="Repair\Model\RepItemConsumptionRecord.cs" />
+    <Compile Include="Repair\Model\RepItemDamageRecord.cs" />
+    <Compile Include="Repair\Model\RepPlace.cs" />
+    <Compile Include="Repair\Model\StoreLocation.cs" />
+    <Compile Include="Repair\ViewModel\AdvanceItemRecordVM.cs" />
+    <Compile Include="Repair\ViewModel\DispatchVM.cs" />
+    <Compile Include="Repair\ViewModel\DispItemVM.cs" />
+    <Compile Include="Repair\ViewModel\ItemPurchaseEntryVM.cs" />
+    <Compile Include="Repair\ViewModel\ItemVM.cs" />
+    <Compile Include="Repair\ViewModel\MultiRepItemVM.cs" />
+    <Compile Include="Repair\ViewModel\PurchaseVM.cs" />
+    <Compile Include="Repair\ViewModel\RepairEntryVMDispatch.cs" />
+    <Compile Include="Repair\ViewModel\RepairEntryVM2.cs" />
+    <Compile Include="Repair\ViewModel\RepItemConsumptionRecordVM.cs" />
+    <Compile Include="Repair\ViewModel\RepItemDamageRecord.cs" />
+    <Compile Include="Repair\ViewModel\RepItemPreAddRecordVM.cs" />
+    <Compile Include="RetailBardanaManaged\Model\RetailBardanaItem.cs" />
+    <Compile Include="RetailBardanaManaged\Model\RetailBardanaItemEntry.cs" />
+    <Compile Include="RetailBardanaManaged\Model\RetailBardanaSupplier.cs" />
+    <Compile Include="RetailBardanaManaged\ViewModel\BardanaItemEntry.cs" />
+    <Compile Include="Retail\Model\Customer.cs" />
+    <Compile Include="Retail\Model\CustomerCategory.cs" />
+    <Compile Include="Retail\Model\DEEntry.cs" />
+    <Compile Include="Retail\Model\Product.cs" />
+    <Compile Include="Retail\Model\ProductCategory.cs" />
+    <Compile Include="Retail\Model\ProductEntryRecord.cs" />
+    <Compile Include="Retail\Model\ProductSize.cs" />
+    <Compile Include="Retail\Model\SaleOrder.cs" />
+    <Compile Include="Retail\Model\SaleOrderLine.cs" />
+    <Compile Include="Retail\Model\SIEntry.cs" />
+    <Compile Include="Retail\Model\StockItem.cs" />
+    <Compile Include="Retail\ViewModel\CustomerTrialBalanceVM.cs" />
+    <Compile Include="Retail\ViewModel\CustomerVM.cs" />
+    <Compile Include="Retail\ViewModel\CustomerVM2.cs" />
+    <Compile Include="Retail\ViewModel\LineVM2.cs" />
+    <Compile Include="Retail\ViewModel\OrderLineVM.cs" />
+    <Compile Include="Retail\ViewModel\OrderProdVM.cs" />
+    <Compile Include="Retail\ViewModel\OrdProcessVM.cs" />
+    <Compile Include="Retail\ViewModel\ProdSearchVM.cs" />
+    <Compile Include="Retail\ViewModel\ProductEntryRecordViewModel.cs" />
+    <Compile Include="Retail\ViewModel\ProductViewModel.cs" />
+    <Compile Include="Retail\ViewModel\SaleOrderVM.cs" />
+    <Compile Include="ScheduleSelector\ViewModel\SelectorVM.cs" />
+    <Compile Include="AppWeighBridge\ViewModel\WeighBridgeVM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

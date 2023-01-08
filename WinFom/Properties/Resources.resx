@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="facicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hydroelectric_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hydroelectric_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_robot_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-robot-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_robot_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-robot-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete_k52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete_k52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plus_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plus_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Steam_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_Steam_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alarm_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alarm_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deal_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deal_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deal_list50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deal_list50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Subtract_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Subtract_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="factorylogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\factorylogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="companyList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\companyList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Receive_Cash_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Receive Cash_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="broker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\broker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Truck_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Truck_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Driver_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Driver_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Briefcase_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Briefcase_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="issuereceive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\issuereceive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packingstockfactory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packingstockfactory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scales_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scales_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packingstockfactory2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\packingstockfactory2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maalregister" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maalregister.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vehicle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vehicle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dashboard_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dashboard_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="readydeal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\readydeal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="readydeallist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\readydeallist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atomix_user31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atomix_user31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fingerprint_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fingerprint_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fingerprint_reader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fingerprint-reader.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="readyalarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\readyalarm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="readydashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\readydashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addOilDealImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addOilDealImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addOilDealImage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addOilDealImage2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oilDealListImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oilDealListImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oilDirstList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oilDirstList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oilDirtDeal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oilDirtDeal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="categoryimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\categoryimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catelist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catelist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="productlist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\productlist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catlist2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catlist2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="product2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="productlist2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\productlist2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saleorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saleorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saleorderlist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saleorderlist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saleorderslist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saleorderslist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdminExpenses" xml:space="preserve">
+    <value>24b5c5e6-0aa1-46d4-8fab-47167ad6a0a6</value>
+  </data>
+  <data name="AssetsHead" xml:space="preserve">
+    <value>84502527-322a-49ea-b996-12a97df8e6cf</value>
+  </data>
+  <data name="CapitalAccountTopHead" xml:space="preserve">
+    <value>f276c771-faa5-47f8-b594-2126ff3ca017</value>
+  </data>
+  <data name="Creditors" xml:space="preserve">
+    <value>b69b6a6a-9fd3-4435-8430-4988517404df</value>
+  </data>
+  <data name="CurrentAssets" xml:space="preserve">
+    <value>afdb6d2d-b76e-41c3-bbc5-c1c64190ddd8</value>
+  </data>
+  <data name="CurrentLiabilities" xml:space="preserve">
+    <value>d7155c11-63ee-4adf-9986-93f6ea830e68</value>
+  </data>
+  <data name="Debtors" xml:space="preserve">
+    <value>fd183aa0-dec8-452e-9cf1-e4cc598189de</value>
+  </data>
+  <data name="ExpensesHead" xml:space="preserve">
+    <value>71d464d0-3281-4bd5-bbba-2eb381377558</value>
+  </data>
+  <data name="FinancialExpensesTopHead" xml:space="preserve">
+    <value>27f5b742-048c-4380-b747-552f6f1b7dfb</value>
+  </data>
+  <data name="FixedAssets" xml:space="preserve">
+    <value>e24aeb66-eea9-4eaf-9eeb-31c5459f364b</value>
+  </data>
+  <data name="IncomeHead" xml:space="preserve">
+    <value>549a52f0-b925-4030-934e-a5052af71583</value>
+  </data>
+  <data name="LiabilitiesHead" xml:space="preserve">
+    <value>9317e07a-3ad3-4a39-b47e-724f6de923a5</value>
+  </data>
+  <data name="LongTermAssetsTopHead" xml:space="preserve">
+    <value>c5011a59-c59c-47e8-ac16-11ab3d8db531</value>
+  </data>
+  <data name="LongTermLiabilities" xml:space="preserve">
+    <value>a987d189-0919-424d-becb-838d9cf52b52</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>2868b4dd-b27b-44e5-bdb5-27395822a743</value>
+  </data>
+  <data name="SellingExpenses" xml:space="preserve">
+    <value>04618e3c-06b5-45df-91b7-5e8872edd01f</value>
+  </data>
+  <data name="OilCakeSalesSubHead" xml:space="preserve">
+    <value>becdc94e-7822-4bb2-ae24-7bebe43ed8a2</value>
+  </data>
+  <data name="Banks" xml:space="preserve">
+    <value>726a54a9-48c8-46b6-a25b-99f5620b64e7</value>
+  </data>
+  <data name="CashAccountSubHead" xml:space="preserve">
+    <value>1b052177-4120-4680-b357-d579b3e62edf</value>
+  </data>
+  <data name="HeadAccount" xml:space="preserve">
+    <value>9a2a6398-0bb8-44e5-8942-7945f565fdca</value>
+  </data>
+  <data name="IncomeTopHead" xml:space="preserve">
+    <value>b7f550d1-22a5-4388-bafc-bbcb46d09282</value>
+  </data>
+  <data name="PettyCash" xml:space="preserve">
+    <value>4e302d6c-dfdc-4daf-8017-965201cffb7b</value>
+  </data>
+  <data name="CashInHand" xml:space="preserve">
+    <value>35f79a75-f1db-4aab-a0b9-c23b350fa9f3</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>87f12424-ef20-4aed-a0cd-d43800224c73</value>
+  </data>
+  <data name="SalariesSubHead" xml:space="preserve">
+    <value>e75b4461-5121-49e0-907d-fef201e79c13</value>
+  </data>
+  <data name="GeneralExpenseHead" xml:space="preserve">
+    <value>c315aaac-2462-4ddd-9e37-779ac30d0381</value>
+  </data>
+  <data name="GeneralExpenseAccount" xml:space="preserve">
+    <value>56a26e03-406d-4b65-bf77-cda4a0865d23</value>
+  </data>
+  <data name="MiscSellingExpenses" xml:space="preserve">
+    <value>621a8622-b2d4-4861-b247-8e60abc593e1</value>
+  </data>
+  <data name="AccruedExpensesSubHead" xml:space="preserve">
+    <value>bef3fce3-55b5-414b-aa8b-45f274ba44f0</value>
+  </data>
+  <data name="FreightExpenseAccount" xml:space="preserve">
+    <value>9f8733b2-08b5-4ce9-b1cf-658a16e93c34</value>
+  </data>
+  <data name="BrokeryExpenseAccount" xml:space="preserve">
+    <value>1a78bb87-4188-4456-9564-e9d6e484638c</value>
+  </data>
+  <data name="AccruedExpenseAccount" xml:space="preserve">
+    <value>9972c700-6bb9-475d-bfa3-f56352862abc</value>
+  </data>
+  <data name="GoodsLossDueToShortQty" xml:space="preserve">
+    <value>9f36bf8d-754d-40b0-bf0b-7dab78c15061</value>
+  </data>
+  <data name="CapitalAccountSubHead" xml:space="preserve">
+    <value>7cefb13a-348b-45f8-9301-c3381de40f97</value>
+  </data>
+  <data name="StockPurchases" xml:space="preserve">
+    <value>9d481d22-f342-4d38-b627-f754e447c485</value>
+  </data>
+  <data name="SalariesAccount" xml:space="preserve">
+    <value>d280f4cf-2001-4df7-9d9f-ef15ac574c2f</value>
+  </data>
+  <data name="SalesReturnAccount" xml:space="preserve">
+    <value>30e2052a-44f7-4e70-b60a-0fad1adfbf0e</value>
+  </data>
+  <data name="daybookentries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\daybookentries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transactions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transactions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="financials" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\financials.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accountHeadsBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accountHeadsBalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accounts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accounts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assetsBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assetsBalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expenseBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expenseBalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="incomeBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\incomeBalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liabilityBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\liabilityBalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accountsTreeview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accountsTreeview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadyGoodsSubHead" xml:space="preserve">
+    <value>2eda959e-ffcb-4e4e-90e9-624034751908</value>
+  </data>
+  <data name="FinancialExpenseSubHead" xml:space="preserve">
+    <value>ffcb4e19-83ee-46db-8e11-ec8ee14c86b7</value>
+  </data>
+  <data name="ReadyGoodsTopHead" xml:space="preserve">
+    <value>2f65f24a-44a3-4bb8-bee7-f97d8fd31719</value>
+  </data>
+  <data name="BrokeryExpenseSubHead" xml:space="preserve">
+    <value>50e11c2f-a995-4178-b546-915c5e40f426</value>
+  </data>
+  <data name="OilCakeRetailSaleAccount" xml:space="preserve">
+    <value>15b564bf-6029-4524-a29d-ff2a8dcaafba</value>
+  </data>
+  <data name="OilSalesSubHead" xml:space="preserve">
+    <value>f1f1e2ff-de5c-4243-a726-3fe0e775ae9a</value>
+  </data>
+  <data name="OilDirtSubHead" xml:space="preserve">
+    <value>8107d98a-8041-417d-b3f3-bef4aae15cee</value>
+  </data>
+  <data name="OpeningBalanceEquityAccount" xml:space="preserve">
+    <value>c8bfb6d9-83ec-4b11-97d0-503ad17e69eb</value>
+  </data>
+  <data name="OpeningBalanceSubHead" xml:space="preserve">
+    <value>a9d129d4-03d0-4b70-a97e-09f60463e904</value>
+  </data>
+  <data name="OilcakeLaborExpensePayableAccount" xml:space="preserve">
+    <value>41dfc16b-6338-47bb-ae05-d4fd67903e19</value>
+  </data>
+  <data name="CottonSeedLaborExpensePayable" xml:space="preserve">
+    <value>bb087364-c2c2-46a1-af6b-a56c95f880a8</value>
+  </data>
+  <data name="LaborExpensePayableSubHead" xml:space="preserve">
+    <value>b1d62010-8414-417b-b8e9-252beb2ec4da</value>
+  </data>
+  <data name="OilCakeWholeSaleLaborExpenseAccount" xml:space="preserve">
+    <value>7bbc75f5-84db-4cee-a887-ffd934ac31b4</value>
+  </data>
+  <data name="AccruedPayablesSubHead" xml:space="preserve">
+    <value>8dc3670b-b205-4537-b005-8825cbf6cc4d</value>
+  </data>
+  <data name="LongTermAssetsExpensesAccount" xml:space="preserve">
+    <value>14460fc2-216b-4eb4-8780-0daad319d6e4</value>
+  </data>
+  <data name="AssetsExpensesSubHead" xml:space="preserve">
+    <value>e859e942-e56a-4d3c-b984-3f39a1961ad3</value>
+  </data>
+  <data name="LongTermAssetsSubHead" xml:space="preserve">
+    <value>cf5fda68-b35f-4d99-8ec7-9b38a2df4b17</value>
+  </data>
+  <data name="RepairingExpenseSubHead" xml:space="preserve">
+    <value>390c60ba-91b9-47b0-9dcb-34c9ee99fecd</value>
+  </data>
+  <data name="RepairingExpenseAccount" xml:space="preserve">
+    <value>77677c0b-2325-4183-abf9-205208d28cde</value>
+  </data>
+  <data name="RepairExpensesPayableSubHead" xml:space="preserve">
+    <value>5cf8e2d6-01ea-4c35-874b-757f948bab8c</value>
+  </data>
+  <data name="ItemsPurchasedAccount" xml:space="preserve">
+    <value>1a60c100-e62c-4454-87b7-fd46d42f67ff</value>
+  </data>
+  <data name="ZakatPayableSubHead" xml:space="preserve">
+    <value>8b015fc8-4322-4751-8d9b-c259a55b3e6f</value>
+  </data>
+  <data name="ZakatPayableAccount" xml:space="preserve">
+    <value>6b012123-97c5-447a-a9c7-c33ed46128aa</value>
+  </data>
+  <data name="LaborExpenseSubHead" xml:space="preserve">
+    <value>b7b35f04-088c-48f7-978e-506aa5a38681</value>
+  </data>
+  <data name="ZakatPaidSubHead" xml:space="preserve">
+    <value>dcd337b7-5406-44e7-8ef8-43437ea010f8</value>
+  </data>
+  <data name="ZakatPaidAccount" xml:space="preserve">
+    <value>723a5187-550c-4748-bff5-26a7ff9b7b53</value>
+  </data>
+  <data name="InventoryItemsConsumptionExpenseAccount" xml:space="preserve">
+    <value>14095655-3778-4c2c-8bf4-1d34a644c16c</value>
+  </data>
+  <data name="TracktorLaborPayableAccount" xml:space="preserve">
+    <value>96c69a44-c3af-4741-9f08-f5a1676f3bab</value>
+  </data>
+  <data name="TracktorLaborExpenseAccount" xml:space="preserve">
+    <value>7592ae16-e9ad-4482-a9a1-fe0138efaa42</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>988dc2f1-6858-4712-bad4-78767ae71a98</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>4463f116-a135-4858-aa83-3f689ecce1e6</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>bf9982a9-5cf8-40db-9f33-71acc2b5e1bd</value>
+  </data>
+  <data name="ZakatPaidTopHead" xml:space="preserve">
+    <value>fd11747c-1914-41fa-ba8e-8c044d784101</value>
+  </data>
+  <data name="CrudeOilWholeSaleLaborExpenseAccount" xml:space="preserve">
+    <value>3aebeb1c-bbc0-4495-a301-a91675bb480f</value>
+  </data>
+  <data name="OilDirtWholeSaleLaborExpenseAccount" xml:space="preserve">
+    <value>ebec0a7d-35f0-42cd-be7f-3e6d46e4f996</value>
+  </data>
+  <data name="OilCakeRetailLaborExpenseAccount" xml:space="preserve">
+    <value>f533545c-236b-4603-9894-c641f1bfa57c</value>
+  </data>
+  <data name="OilCakeRetailSubHead" xml:space="preserve">
+    <value>c6f7bd95-9b56-4af7-87e4-0c91272ebd49</value>
+  </data>
+  <data name="BardanaSellingExpenseAccount" xml:space="preserve">
+    <value>6f2d35a2-e573-48dc-b5ea-44fc9bb062e3</value>
+  </data>
+  <data name="CottonSeedLaborExpenseAccount" xml:space="preserve">
+    <value>f24cd4be-f145-4dfb-946a-8e3f3be91bd0</value>
+  </data>
+  <data name="accountdetails2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accountdetails2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accountheadbalance2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accountheadbalance2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accountmanagement2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accountmanagement2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capitalaccount1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capitalaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cashaccount1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cashaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="daybookentries2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\daybookentries2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transactions2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transactions2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creditors1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creditors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receivables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receivables.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addemployee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addemployee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="employeelist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employeelist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="financialexpense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\financialexpense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalexpense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalexpense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="openingbalancepic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openingbalancepic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retailbardanapic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retailbardanapic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated7.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated9.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FloorScale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FloorScale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gate_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gate_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Office" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Office.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laborpayableaccounts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laborpayableaccounts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accruedexpense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accruedexpense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="payrollgive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payrollgive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="employeepayments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employeepayments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="longtermasset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\longtermasset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repairitems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repairitems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addrepairitem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addrepairitem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventoryitems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventoryitems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purchasinglist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchasinglist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dispatchrepairslist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dispatchrepairslist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zakat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zakat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accountbalancesreport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accountbalancesreport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generaltransaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generaltransaction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalaccounts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalaccounts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="efiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\efiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="readyreport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\readyreport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGO3png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO3png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csharpblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csharpblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csharpwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csharpwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appusers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appusers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lightoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lighton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lighton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalreceipts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalreceipts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refreshmentlist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refreshmentlist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search20green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search20green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search20white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search20white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemPurchasedExpenseSubHead" xml:space="preserve">
+    <value>23a15a9b-e7e2-4c0e-8429-7a9507d3bd34</value>
+  </data>
+  <data name="ItemPurchasedExpenseTopHead" xml:space="preserve">
+    <value>72eb3cf9-ec07-48be-ba82-8ab238659a44</value>
+  </data>
+  <data name="incomestatement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\incomestatement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\min1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\min2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\min3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\min5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\min6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\min4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trialCustomers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trialCustomers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trialCustomerBalance2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trialCustomerBalance2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trialCustomersBalance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trialCustomersBalance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oilreportimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oilreportimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oildirtreportsbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oildirtreportsbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
